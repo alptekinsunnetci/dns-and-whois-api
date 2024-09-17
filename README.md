@@ -44,6 +44,10 @@ go run main.go
 
 ## Sample
 
+```curl
+http://127.0.0.1:8080/google.com
+```
+
 ```json
 {
     "question": [
