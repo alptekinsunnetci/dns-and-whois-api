@@ -17,7 +17,6 @@ This project is a Go-based API server for handling DNS and WHOIS queries. It pro
 - `GET /{domain}/{querytype}`: Perform a DNS query for the specified domain and query type.
 - `GET /{domain}`: Perform multiple DNS queries (A, AAAA, SOA, MX, NS, CNAME, TXT) for the specified domain.
 - `GET /ptr/{ip}`: Perform a reverse DNS (PTR) query for the specified IP address.
-- `GET /health`: Health check endpoint that verifies DNS server availability.
 
 ### WHOIS Endpoints
 
