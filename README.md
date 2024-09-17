@@ -31,3 +31,9 @@ To run the server, use the following commands:
 
 ```bash
 go run main.go
+
+
+You can configure the DNS server and timeout by passing flags:
+
+```bash
+go run main.go -dnsServer "8.8.8.8:53" -timeoutMs 5000
