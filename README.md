@@ -34,8 +34,9 @@ go run main.go
 ```
 
 
-You can configure the DNS server and timeout by passing flags:
+## Configuration
 
-```bash
-go run main.go -dnsServer "8.8.8.8:53" -timeoutMs 5000
-```
+- Server Host: -host (default: 127.0.0.1)
+- Server Port: -port (default: 8081)
+- Query Timeout: -timeout in milliseconds (default: 2000)
+- DNS Server: -dns-server address (default: 1.1.1.1:53)
