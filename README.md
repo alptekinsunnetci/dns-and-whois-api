@@ -37,6 +37,6 @@ go run main.go
 ## Configuration
 
 - Server Host: -host (default: 127.0.0.1)
-- Server Port: -port (default: 8081)
+- Server Port: -port (default: 8080)
 - Query Timeout: -timeout in milliseconds (default: 2000)
 - DNS Server: -dns-server address (default: 1.1.1.1:53)
