@@ -214,3 +214,31 @@ http://127.0.0.1:8080/google.com
 }
 
 ```
+
+
+
+```curl
+http://127.0.0.1:8080/google.com/mx
+```
+
+```json
+{
+    "question": [
+        {
+            "name": "google.com.",
+            "type": "MX",
+            "class": ""
+        }
+    ],
+    "answer": [
+        {
+            "name": "google.com.",
+            "type": "MX",
+            "class": "IN",
+            "ttl": 300,
+            "rdlength": 9,
+            "rdata": "10 smtp.google.com."
+        }
+    ]
+}
+```
